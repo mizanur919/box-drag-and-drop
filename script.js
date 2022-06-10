@@ -39,7 +39,7 @@ function dragLeave() {
 }
 
 function Drop(e) {
-  let classNamesList = []; // green, orange, violte
+  let classNamesList = [];
   for (let i = 0; i < this.childNodes.length; i++) {
     let class_names = this.childNodes[i].className;
     if (class_names) {
