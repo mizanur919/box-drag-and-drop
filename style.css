@@ -1,0 +1,42 @@
+.container{
+    width: 50%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box_container{
+    border: 1px solid #ada1a1;
+    min-height: 100px;
+    min-width: 100px;
+    margin: 20px;
+}
+
+.item{
+    width:100px;
+    height: 100px;
+    margin: 20px;
+}
+.item:hover{
+    cursor:pointer
+}
+.green{
+    background-color: #6D8765;
+}
+.orange{
+    background-color: #FA6810;
+}
+.violet{
+    background-color: #756088;
+}
+.aqua{
+    background-color: #B0E3E6;
+}
+.yellow{
+    background-color: #F0A223;
+}
+.pink{
+    background-image: linear-gradient( white , #D5769E);
+}
